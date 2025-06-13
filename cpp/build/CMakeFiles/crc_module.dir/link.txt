@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -bundle -Wl,-headerpad_max_install_names -Xlinker -undefined -Xlinker dynamic_lookup -flto -o crc_module.cpython-39-darwin.so CMakeFiles/crc_module.dir/src/crc.cpp.o CMakeFiles/crc_module.dir/src/crc_bindings.cpp.o
